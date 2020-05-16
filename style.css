@@ -1,0 +1,18 @@
+h1 {
+    padding-bottom:50px;
+    border-bottom:2px solid black;
+}
+#list {
+    width:200px;
+    float:left;
+}
+#content {
+    padding-left:50px;
+    border-left:2px solid black;
+    width:500px;
+    height:700px;
+    float:left;
+}
+#content_list {
+    margin-left:120px;
+}
