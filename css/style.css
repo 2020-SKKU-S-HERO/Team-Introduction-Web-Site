@@ -4,11 +4,12 @@
     src: url("../fonts/BalsamiqSans-Bold.ttf");
     font-family: "balsimic sans";
 }
+
 body {
     font-family: "Noto sans KR", sans-serif;
 }
 h1 {
-    text-align:center;
+    text-align: center;
     font-size: 50px;
     font-family: "balsimic sans";
 }
@@ -19,6 +20,7 @@ a {
 li {
     list-style: none;
 }
+
 .menu {
     text-align: center;
     padding: 20px;
@@ -28,6 +30,7 @@ li {
 .menu a{
     padding: 20px;
 }
+
 .container {
     margin-top: 50px;
     max-width: 1000px;
@@ -35,9 +38,9 @@ li {
     margin-right: auto;
 }
 .container .list {
-    width:200px;
+    width: 200px;
     text-align: left;
-    float:left;
+    float: left;
 }
 .container .list a {
     display: block;
@@ -54,5 +57,5 @@ li {
 .container .content {
     margin-left: 100px;
     width: 700px;
-    float:left;
+    float: left;
 }
