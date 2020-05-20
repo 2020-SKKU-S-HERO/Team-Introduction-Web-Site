@@ -10,7 +10,13 @@
 }
 
 h1 {
-
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
 }
 body {
     font-family: "Noto sans KR", sans-serif;
@@ -100,17 +106,17 @@ dd {
     color: #FFFFFF;
 }
 .container_wrapper .container .content {
-    padding-left: 100px;
+    padding: 50px 50px 70px 70px;
     width: 80%;
     float: left;
 }
 .container_wrapper .container .content .people {
-    margin-top: 50px;
     box-shadow: #999999 0px 0px 5px;
     border-radius: 5px;
     padding: 20px;
     width: 400px;
     height: 180px;
+
 }
 .container_wrapper .container .content .people dt {
     display: block;
