@@ -5,13 +5,17 @@
     font-family: "balsimic sans";
 }
 
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+
+}
 body {
     font-family: "Noto sans KR", sans-serif;
-}
-h1 {
-    text-align: center;
-    font-size: 50px;
-    font-family: "balsimic sans";
+    background-color: #EEEEEE;
+    margin: 0px;
 }
 a {
     color: #000000;
@@ -21,41 +25,76 @@ li {
     list-style: none;
 }
 
+.logo_container {
+    height: 100px;
+    background-color: #FFFFFF;
+}
+.logo_container .logo {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "balsimic sans";
+}
+
 .menu {
+    background-color: #FFFFFF;
+    height: 70px;
     text-align: center;
     padding: 20px;
     border-top: #CCCCCC solid 1px;
     border-bottom: #CCCCCC solid 1px;
+    font-size: 18px;
 }
 .menu a{
     padding: 20px;
 }
 
-.container {
-    margin-top: 50px;
+.container_wrapper {
+    height: calc(100vh - (100px + 70px));
+    padding: 50px;
+    background-color: #EEEEEE;
+    min-height: 500px;
+}
+.container_wrapper .container {
+    height: 100%;
+    padding: 20px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: #999999 0px 0px 20px;
 }
-.container .list {
-    width: 200px;
+.container_wrapper .container .list {
+    width: 20%;
     text-align: left;
     float: left;
 }
-.container .list a {
+.container_wrapper .container .list a {
+    height: 50px;
     display: block;
     padding-top: 12px;
     padding-left: 10px;
+    -webkit-transition:background-color 0.5s, color 0.5s;
 }
-.container .list .on {
-    height: 50px;
+.container_wrapper .container .list a:hover {
+    background-color: #6D983C;
+    color: #FFFFFF;
+}
+.container_wrapper .container .list .on {
     border-bottom: #AAAAAA solid 1px;
 }
-.container .list a.active {
+.container_wrapper .container .list a.active {
     color: #6D983C;
+    -webkit-transition:background-color 0.5s, color 0.5s;
 }
-.container .content {
-    margin-left: 100px;
-    width: 700px;
+.container_wrapper .container .list a.active:hover {
+    background-color: #6D983C;
+    color: #FFFFFF;
+}
+.container_wrapper .container .content {
+    padding-left: 100px;
+    width: 80%;
     float: left;
 }
