@@ -24,6 +24,12 @@ a {
 li {
     list-style: none;
 }
+dl {
+    margin: 0;
+}
+dd {
+    margin-inline-start: 0;
+}
 
 .logo_container {
     height: 100px;
@@ -97,4 +103,37 @@ li {
     padding-left: 100px;
     width: 80%;
     float: left;
+}
+.container_wrapper .container .content .people {
+    margin-top: 50px;
+    box-shadow: #999999 0px 0px 5px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    height: 180px;
+}
+.container_wrapper .container .content .people dt {
+    display: block;
+    width: 30%;
+    float: left;
+}
+.container_wrapper .container .content .people dt img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.container_wrapper .container .content .people dd {
+    width: 70%;
+    display: block;
+    padding: 0px 0px 0px 20px;
+    float: right;
+}
+.container_wrapper .container .content .people dd .position {
+    font-weight: bold;
+}
+.container_wrapper .container .content .people dd .major {
+
+}
+.container_wrapper .container .content .people dd .name {
+    font-size: 25px;
 }
