@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
 @font-face {
-    src: url("../fonts/BalsamiqSans-Bold.ttf");
-    font-family: "balsimic sans";
+    src: url("../fonts/윤고딕310.ttf");
+    font-family: "윤고딕310";
 }
 
 * {
@@ -19,6 +19,7 @@ h3 {
     margin: 0;
 }
 body {
+    min-width: 800px;
     font-family: "Noto sans KR", sans-serif;
     background-color: #EEEEEE;
     margin: 0px;
@@ -45,7 +46,8 @@ dd {
     padding: 20px;
     text-align: center;
     font-size: 50px;
-    font-family: "balsimic sans";
+    font-family: "helvetica bold", sans-serif;
+    font-weight: bold;
 }
 
 .menu {
@@ -61,6 +63,9 @@ dd {
     padding: 20px;
 }
 
+.container {
+
+}
 .container_wrapper {
     height: calc(100vh - (100px + 70px));
     padding: 50px;
@@ -79,6 +84,8 @@ dd {
     box-shadow: #999999 0px 0px 20px;
 }
 .container_wrapper .container .list {
+    font-size: 16px;
+    font-weight: lighter;
     width: 20%;
     text-align: left;
     float: left;
@@ -114,7 +121,7 @@ dd {
     box-shadow: #999999 0px 0px 5px;
     border-radius: 5px;
     padding: 20px;
-    width: 400px;
+    min-width: 400px;
     height: 180px;
 
 }
@@ -136,7 +143,7 @@ dd {
     float: right;
 }
 .container_wrapper .container .content .people dd .position {
-    font-weight: bold;
+
 }
 .container_wrapper .container .content .people dd .major {
 
